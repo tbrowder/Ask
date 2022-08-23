@@ -1,0 +1,6 @@
+use Test;
+use Ask;
+
+pass "replace me";
+
+done-testing;

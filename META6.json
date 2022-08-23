@@ -1,0 +1,26 @@
+{
+  "auth": "zef:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Provides 'ask' as an alias for Raku core routine 'prompt'",
+  "license": "Artistic-2.0",
+  "name": "Ask",
+  "perl": "6.d",
+  "provides": {
+    "Ask": "lib/Ask.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/tbrowder/Ask.git",
+  "tags": [
+  ],
+  "test-depends": [
+    "Temp::Path"
+  ],
+  "version": "0.0.1"
+}

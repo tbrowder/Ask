@@ -1,0 +1,35 @@
+=begin pod
+
+=head1 NAME
+
+B<Ask> - Provides C<ask> as an alias for Raku core routine C<prompt>
+
+=head1 SYNOPSIS
+
+=begin code :lang<Raku>
+use Ask;
+
+my $answer = ask "Are you well I hope (Y/n)? ";
+if $answer ~~ /:i y/ {
+    say "Good, glad to hear it!";
+}
+else {
+    say "Oh, I'm so sorry.";
+}
+=end code
+
+=head1 DESCRIPTION
+
+This module exports, by C<DEFAULT>, C<ask> as an alias for the built-in routine C<prompt>.
+
+=head1 AUTHOR
+
+Tom Browder <tbrowder@acm.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright &#x00A9; 2022 Tom Browder
+
+This library is free software; you can redistribute it or modify it under the Artistic License 2.0.
+
+=end pod

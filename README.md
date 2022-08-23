@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/tbrowder/Ask/actions/workflows/test.yml/badge.svg)](https://github.com/tbrowder/Ask/actions)
+
 NAME
 ====
 

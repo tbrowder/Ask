@@ -18,6 +18,7 @@
   ],
   "source-url": "https://github.com/tbrowder/Ask.git",
   "tags": [
+    "alias prompt"
   ],
   "test-depends": [
     "Temp::Path"

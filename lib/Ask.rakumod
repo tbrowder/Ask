@@ -1,4 +1,1 @@
-unit module Ask;
-
-constant &ask is export(:DEFAULT) = &prompt;
-
+sub EXPORT() { Map.new: '&ask' => &prompt }

@@ -6,6 +6,7 @@
   "build-depends": [
   ],
   "depends": [
+    "Digest::SHA"
   ],
   "description": "Provides 'ask' as an alias for Raku core routine 'prompt'",
   "license": "Artistic-2.0",
